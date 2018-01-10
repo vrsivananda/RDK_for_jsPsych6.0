@@ -45,9 +45,9 @@ Parameters can be left unspecified if the default value is acceptable.
 -**Different**: Each dot can be either a coherent dot (signal) or incoherent dot (noise) and will be designated randomly (weighted based on the coherence level) at each frame. Only the dots that are designated to be coherent dots will move in the direction of coherent motion, but only in that frame. In the next frame, each dot will be designated randomly again on whether it is a coherent or incoherent dot.
 
 #### Noise Type:
--**Random position**: The incoherent dots appear in a random location in the aperture in each frame.
--**Random walk**: The incoherent dots will move in a random direction (designated randomly in each frame) in each frame.
--**Random direction**: Each incoherent dot has its own alternative direction of motion (designated randomly at the beginning of the trial), and moves in that direction in each frame.
+-**Random position**: The incoherent dots appear in a random location in the aperture in each frame.<br/>
+-**Random walk**: The incoherent dots will move in a random direction (designated randomly in each frame) in each frame.<br/>
+-**Random direction**: Each incoherent dot has its own alternative direction of motion (designated randomly at the beginning of the trial), and moves in that direction in each frame.<br/>
 
 
 ## Data Generated
