@@ -54,7 +54,7 @@ jsPsych.plugins["RDK"] = (function() {
 		      description: "The length of stimulus presentation"
 		    },
 		    response_ends_trial: {
-		      type: jsPsych.plugins.parameterType.BOOL, //boolean
+		      type: jsPsych.plugins.parameterType.BOOL,
 		      pretty_name: "Response ends trial",
 		      default: true,
 		      description: "If true, then any valid key will end the trial"
